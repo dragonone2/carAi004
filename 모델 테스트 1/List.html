@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Gaegu:wght@300&family=Jua&family=Sunflower&display=swap"
+    rel="stylesheet">
+<style>
+    .button {
+        font-size: 3em;
+        width: 670px;
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        text-align: left;
+        font-family: 'Dongle', sans-serif;
+
+    }
+
+    .button1 {
+        font-size: 3em;
+        width: 670px;
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        text-align: left;
+        font-family: 'Dongle', sans-serif;
+
+    }
+
+    .button2 {
+        font-size: 3em;
+        width: 670px;
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        text-align: left;
+        font-family: 'Dongle', sans-serif;
+
+    }
+
+    .button3 {
+        font-size: 3em;
+        width: 670px;
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        text-align: left;
+        font-family: 'Dongle', sans-serif;
+
+    }
+
+    .button4 {
+        font-size: 3em;
+        width: 670px;
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        text-align: left;
+        font-family: 'Dongle', sans-serif;
+
+    }
+
+    .button5 {
+        font-size: 3em;
+        width: 670px;
+        background-color: transparent;
+        border: 0;
+        outline: 0;
+        text-align: left;
+        font-family: 'Dongle', sans-serif;
+
+    }
+    
+    .reset{
+        font-size: 1.3em;
+        background-color:rgb(113, 161, 132);
+        border-radius: 30px;
+        font-weight: bold;
+        color: white;
+    }
+    .save{
+        font-size: 1.3em;
+        background-color:rgb(113, 161, 132);
+        border-radius: 30px;
+        font-weight: bold;
+        color: white;
+    }
+
+    ul {
+        font-size: 2em;
+        text-align: left;
+        width: 600px;
+        margin-left: auto;
+        margin-right: 400px;
+
+
+    }
+
+    .image {
+        width: 800px;
+        height: 700px;
+        background-color: blue;
+        text-align: center;
+
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        height: 90px;
+        padding: 1rem;
+        color: white;
+        background: rgb(57, 134, 87);
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2em;
+    }
+
+    h1,
+    p {
+        margin: 0;
+    }
+
+    main {
+        padding: 1rem;
+        height: 100%;
+    }
+
+    body {
+        background: beige;
+    }
+
+    body,
+    html {
+        height: 100%;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+</style>
+<header>
+    <h1>Find a car model</h1>
+    <nav>
+        <button class="save" onclick="location.href='index.html'"> 저장&nbsp;&nbsp;&nbsp;</button>
+        <button class="reset" onclick="location.href='index.html'"> 다시하기&nbsp;&nbsp;&nbsp;</button>
+    </nav>
+</header>
+
+<main>
+    <div>
+        <br><br><br><br>
+    </div>
+    <div class="image">
+
+
+    </div>
+    <div style=" background-color: beige">
+        <ul>
+
+            <li><button class="button" onclick=""> 펠리세이드</button></li><br>
+            <li><button class="button1" onclick="">신차 가격 : 3867만 ~ </button></li><br>
+            <li><button class="button2" onclick="">판매량 : </button></li><br>
+            <li><button class="button3" onclick="showPopup1()"> 차량 홈페이지 이동</button></li><br>
+            <li><button class="button4" onclick="showPopup2()"> 중고차 매매 이동</button></li><br>
+            <li><button class="button5" onclick="showPopup3()"> 제원별 정보 이동</button></li><br>
+            
+        </ul>
+    </div>
+    <script language="javascript">
+
+        function showPopup1() { window.open("https://www.hyundai.com/kr/ko/e/vehicles/palisade/intro", "", "width=1000, height=700, left=center, top=center"); }
+        function showPopup2() { window.open("https://www.kbchachacha.com/public/search/main.kbc#!?makerCode=101&classCode=2722&carCode=2971", "", "width=1000, height=700, left=center, top=center"); }
+        function showPopup3() { window.open("https://search.naver.com/search.naver?where=nexearch&sm=tab_jum&query=2022+%ED%8C%B0%EB%A6%AC%EC%84%B8%EC%9D%B4%EB%93%9C+%EC%A0%9C%EC%9B%90", "", "width=1000, height=700, left=center, top=center"); }
+    </script>
+</main>
+
+</body>
+
+</html>
